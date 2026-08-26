@@ -230,10 +230,10 @@ git push origin main
 
 <br>
 
-| Confusion Matrix | Model Architecture |
+| Confusion Matrix | Model Sample |
 |:---:|:---:|
 | <img src="results/confusion_matrix.png" width="420"> | <img src="results/architecture.png" width="420"> |
-| **Classification Performance** | **CNN Architecture** |
+| **Classification Performance** | **Sample Predictions** |
 
 <br>
 
