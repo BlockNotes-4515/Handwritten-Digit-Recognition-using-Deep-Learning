@@ -225,14 +225,14 @@ git push origin main
 
 | Training Accuracy | Training Loss |
 |:---:|:---:|
-| <img src="assets/training_accuracy.png" width="420"> | <img src="assets/training_loss.png" width="420"> |
+| <img src="results/training_accuracy.png" width="420"> | <img src="results/training_loss.png" width="420"> |
 | **Training & Validation Accuracy** | **Training & Validation Loss** |
 
 <br>
 
 | Confusion Matrix | Model Architecture |
 |:---:|:---:|
-| <img src="assets/confusion_matrix.png" width="420"> | <img src="assets/architecture.png" width="420"> |
+| <img src="results/confusion_matrix.png" width="420"> | <img src="results/architecture.png" width="420"> |
 | **Classification Performance** | **CNN Architecture** |
 
 <br>
@@ -246,7 +246,7 @@ git push origin main
 
 | Probability Distribution |
 |:---:|
-| <img src="assets/probability.png" width="850"> |
+| <img src="results/probability.png" width="850"> |
 | **Class-wise Prediction Probability** |
 
 </div>
