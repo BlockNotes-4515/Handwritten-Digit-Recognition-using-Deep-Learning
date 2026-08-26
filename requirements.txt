@@ -1,9 +1,5 @@
-tensorflow
 streamlit
 streamlit-drawable-canvas
+tensorflow
 numpy
-pandas
 pillow
-scikit-learn
-matplotlib
-seaborn
