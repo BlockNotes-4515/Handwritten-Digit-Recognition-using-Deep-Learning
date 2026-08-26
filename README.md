@@ -225,7 +225,7 @@ git push origin main
 
 | Training Accuracy | Training Loss |
 |:---:|:---:|
-| <img src="results/training_accuracy.png" width="420"> | <img src="results/training_loss.png" width="420"> |
+| <img src="results/accuracy.png" width="420"> | <img src="results/loss.png" width="420"> |
 | **Training & Validation Accuracy** | **Training & Validation Loss** |
 
 <br>
