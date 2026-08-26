@@ -104,3 +104,41 @@ Handwritten-Digit-Recognition/
     ├── accuracy.png
     ├── loss.png
     └── confusion_matrix.png
+
+```
+## ✦ The Idea
+```
+Python
+ │
+ ├── NumPy
+ └── Pillow
+ │
+ ▼
+Machine Learning
+ │
+ ├── Image Processing
+ ├── Classification
+ └── Evaluation
+ │
+ ▼
+Deep Learning
+ │
+ ├── CNN
+ ├── ReLU
+ ├── Pooling
+ ├── Dense Layers
+ ├── Dropout
+ └── Softmax
+ │
+ ▼
+Application Development
+ │
+ └── Streamlit
+ │
+ ▼
+Engineering
+ │
+ ├── Git
+ ├── GitHub
+ ├── Modular Architecture
+ └── Documentation
