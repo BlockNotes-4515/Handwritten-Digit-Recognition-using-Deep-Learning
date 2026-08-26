@@ -1,45 +1,71 @@
-# Handwritten Digit Recognition using Deep Learning
+<div align="center">
 
-## Project Overview
+# ✦ Digit AI
 
-This project recognizes handwritten digits using a Convolutional Neural Network (CNN).
+### Handwritten Digit Recognition using Deep Learning
 
-The model is trained on the MNIST handwritten digit dataset.
+**Draw a digit. Let the neural network understand it.**
 
-## Technologies Used
+A production-style computer vision project powered by  
+**Convolutional Neural Networks · TensorFlow · Keras · MNIST · Streamlit**
 
-- Python
-- TensorFlow
-- Keras
-- CNN
-- MNIST
-- NumPy
-- Scikit-learn
-- Streamlit
-- Streamlit Drawable Canvas
+<br>
 
-## Model Architecture
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-D00000?style=for-the-badge&logo=keras&logoColor=white)](https://keras.io/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![MNIST](https://img.shields.io/badge/Dataset-MNIST-111111?style=for-the-badge)](https://yann.lecun.com/exdb/mnist/)
+[![License](https://img.shields.io/badge/License-MIT-111111?style=for-the-badge)](LICENSE)
 
-Input: 28 x 28 x 1
+<br>
 
-Conv2D - 32 filters
-MaxPooling
+[**Live Demo**](#-live-demo) ·
+[**Architecture**](#-system-architecture) ·
+[**Results**](#-model-performance) ·
+[**Installation**](#-installation) ·
+[**Contributing**](#-contributing)
 
-Conv2D - 64 filters
-MaxPooling
+</div>
 
-Flatten
+---
 
-Dense - 128 neurons
-Dropout - 0.5
+## ✦ The Idea
 
-Output - 10 neurons
-Softmax
+**Digit AI** is an interactive handwritten digit recognition system that combines
+deep learning with a minimal, intuitive user experience.
 
-## How to Run
+Instead of uploading an image, users can simply **draw a digit directly on the
+screen**. The application captures the drawing, transforms it into a format
+understood by the neural network, and produces a real-time prediction.
 
-Install dependencies:
+The system doesn't only return the predicted digit.
 
-```bash
-pip install -r requirements.txt
-```
+It also explains the prediction through:
+
+- 🎯 Predicted digit
+- 📊 Confidence score
+- 📈 Probability distribution across all 10 classes
+- 🖼️ Processed image seen by the model
+- 🧠 CNN-based classification
+
+The project covers the complete machine learning lifecycle:
+
+```text
+Data
+  ↓
+Preprocessing
+  ↓
+CNN Design
+  ↓
+Training
+  ↓
+Evaluation
+  ↓
+Model Serialization
+  ↓
+Inference Pipeline
+  ↓
+Interactive Web Application
+  ↓
+Real-Time Prediction
