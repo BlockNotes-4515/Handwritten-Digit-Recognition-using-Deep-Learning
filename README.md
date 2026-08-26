@@ -106,7 +106,7 @@ Handwritten-Digit-Recognition/
     └── confusion_matrix.png
 
 ```
-## ✦ The Idea
+## ✦ Learning Outcomes
 ```
 Python
  │
@@ -142,3 +142,36 @@ Engineering
  ├── GitHub
  ├── Modular Architecture
  └── Documentation
+
+```
+## ✦ Main Commands to Run this Project
+```
+# Clone
+git clone https://github.com/YOUR_USERNAME/Handwritten-Digit-Recognition.git
+
+# Enter project
+cd Handwritten-Digit-Recognition
+
+# Create environment
+python -m venv venv
+
+# Activate Windows
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run
+streamlit run app.py
+
+# Check changes
+git status
+
+# Stage changes
+git add .
+
+# Commit
+git commit -m "Update project"
+
+# Push
+git push origin main
