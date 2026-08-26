@@ -70,9 +70,8 @@ Interactive Web Application
   ↓
 Real-Time Prediction
 ```
-
 ## ✦ The Idea
-
+```
 Handwritten-Digit-Recognition/
 │
 ├── 📄 README.md
