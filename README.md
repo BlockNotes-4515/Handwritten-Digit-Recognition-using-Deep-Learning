@@ -239,7 +239,7 @@ git push origin main
 
 | User Input | Probability Distribution |
 |:---:|:---:|
-| <img src="results/user_input.png" width="420"> | <img src="results/Probability.png" width="420"> |
+| <img src="results/user_input.jpeg" width="420"> | <img src="results/Probability.jpeg" width="420"> |
 | **Handwritten Digit Input** | **Class-wise Prediction Probability** |
 
 <br>
@@ -248,5 +248,52 @@ git push origin main
 |:---:|
 | <img src="results/main_output_result_value.jpeg" width="850"> |
 | **Predicted Results** |
+
+</div>
+
+---
+
+<div align="center">
+
+<br>
+
+## ✦ Digit AI
+
+### Draw. Predict. Understand.
+
+<br>
+
+**Handwritten Digit Recognition using Deep Learning**
+
+<br>
+
+`Python` · `TensorFlow` · `Keras` · `CNN` · `MNIST` · `Streamlit`
+
+<br><br>
+
+[![GitHub](https://img.shields.io/badge/GitHub-BlockNotes--4515-181818?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BlockNotes-4515)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-181818?style=for-the-badge)](LICENSE)
+
+<br><br>
+
+---
+
+<br>
+
+### Built with curiosity.  
+### Powered by deep learning.
+
+<br>
+
+**© 2026 Digit AI. All rights reserved.**
+
+<br>
+
+*An open-source machine learning project.*
+
+<br><br>
+
+✦ &nbsp; ✦ &nbsp; ✦
 
 </div>
