@@ -217,3 +217,37 @@ git push origin main
                      ▼
         Prediction + Confidence
              + Probabilities
+
+```
+# ✦ Model Results
+```
+
+<div align="center">
+
+| Training Accuracy | Training Loss |
+|:---:|:---:|
+| <img src="assets/training_accuracy.png" width="420"> | <img src="assets/training_loss.png" width="420"> |
+| **Training & Validation Accuracy** | **Training & Validation Loss** |
+
+<br>
+
+| Confusion Matrix | Model Architecture |
+|:---:|:---:|
+| <img src="assets/confusion_matrix.png" width="420"> | <img src="assets/architecture.png" width="420"> |
+| **Classification Performance** | **CNN Architecture** |
+
+<br>
+
+| User Input | AI Prediction |
+|:---:|:---:|
+| <img src="assets/input.png" width="420"> | <img src="assets/prediction.png" width="420"> |
+| **Handwritten Digit Input** | **Predicted Digit & Confidence** |
+
+<br>
+
+| Probability Distribution |
+|:---:|
+| <img src="assets/probability.png" width="850"> |
+| **Class-wise Prediction Probability** |
+
+</div>
