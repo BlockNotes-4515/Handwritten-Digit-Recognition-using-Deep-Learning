@@ -220,7 +220,6 @@ git push origin main
 
 ```
 # ✦ Model Results
-```
 
 <div align="center">
 
