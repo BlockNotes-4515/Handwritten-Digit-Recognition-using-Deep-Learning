@@ -239,7 +239,7 @@ git push origin main
 
 | User Input | AI Prediction |
 |:---:|:---:|
-| <img src="assets/input.png" width="420"> | <img src="assets/prediction.png" width="420"> |
+| <img src="results/input.png" width="420"> | <img src="results/sample_predictions.png" width="420"> |
 | **Handwritten Digit Input** | **Predicted Digit & Confidence** |
 
 <br>
