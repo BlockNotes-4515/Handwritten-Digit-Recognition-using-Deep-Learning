@@ -285,13 +285,9 @@ git push origin main
 ### Powered by deep learning.
 
 <br>
-
 **© 2026 Digit AI. All rights reserved.**
-
 <br>
-
 *An open-source machine learning project.*
-
 <br><br>
 
 ✦ &nbsp; ✦ &nbsp; ✦
