@@ -232,21 +232,21 @@ git push origin main
 
 | Confusion Matrix | Model Sample |
 |:---:|:---:|
-| <img src="results/confusion_matrix.png" width="420"> | <img src="results/architecture.png" width="420"> |
+| <img src="results/confusion_matrix.png" width="420"> | <img src="results/sample_predictions.png" width="420"> |
 | **Classification Performance** | **Sample Predictions** |
 
 <br>
 
-| User Input | AI Prediction |
+| User Input | Probability Distribution |
 |:---:|:---:|
-| <img src="results/input.png" width="420"> | <img src="results/sample_predictions.png" width="420"> |
-| **Handwritten Digit Input** | **Predicted Digit & Confidence** |
+| <img src="results/user_input.png" width="420"> | <img src="results/Probability.png" width="420"> |
+| **Handwritten Digit Input** | **Class-wise Prediction Probability** |
 
 <br>
 
-| Probability Distribution |
+| Results & Outcome |
 |:---:|
-| <img src="results/probability.png" width="850"> |
-| **Class-wise Prediction Probability** |
+| <img src="results/main_output_result_value.jpeg" width="850"> |
+| **Predicted Results** |
 
 </div>
