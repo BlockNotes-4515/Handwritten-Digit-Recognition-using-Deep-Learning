@@ -175,3 +175,175 @@ git commit -m "Update project"
 
 # Push
 git push origin main
+
+
+---
+
+# ✦ Model Results
+
+<div align="center">
+
+### Training Performance
+
+The CNN was trained and evaluated on the MNIST handwritten digit dataset.
+The following visualizations summarize the model's learning and classification
+performance.
+
+</div>
+
+---
+
+## 📈 Training Accuracy
+
+The training and validation accuracy curves show how the model improves during
+training.
+
+<div align="center">
+
+<img src="assets/training_accuracy.png" width="800">
+
+</div>
+
+---
+
+## 📉 Training Loss
+
+The loss curve shows the optimization progress of the CNN throughout training.
+
+<div align="center">
+
+<img src="assets/training_loss.png" width="800">
+
+</div>
+
+---
+
+## 🎯 Confusion Matrix
+
+The confusion matrix provides a class-wise view of correct and incorrect
+predictions across digits `0–9`.
+
+<div align="center">
+
+<img src="assets/confusion_matrix.png" width="800">
+
+</div>
+
+---
+
+# ✦ Model Metrics
+
+| Metric | Result |
+|:---|---:|
+| Dataset | MNIST |
+| Training Samples | 60,000 |
+| Testing Samples | 10,000 |
+| Input Shape | `28 × 28 × 1` |
+| Number of Classes | 10 |
+| Classes | `0 – 9` |
+| Model Architecture | CNN |
+| Framework | TensorFlow / Keras |
+| Optimizer | Adam |
+| Loss Function | Sparse Categorical Crossentropy |
+| Output Activation | Softmax |
+| Training Epochs | `XX` |
+| Batch Size | `XX` |
+| Test Accuracy | **XX.XX%** |
+| Test Loss | **X.XXXX** |
+| Model Size | `XX MB` |
+| Inference | Real-time |
+
+> Replace `XX` values with the actual values obtained from your training run.
+
+---
+
+# ✦ Recognition Results
+
+The final application performs real-time inference directly from the user's
+handwritten input.
+
+<div align="center">
+
+### User Input
+
+<img src="assets/input.png" width="380">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+### AI Prediction
+
+<img src="assets/prediction.png" width="380">
+
+</div>
+
+---
+
+## 📊 Probability Distribution
+
+The model generates a probability score for every digit from `0` to `9`.
+
+<div align="center">
+
+<img src="assets/probability.png" width="800">
+
+</div>
+
+Example:
+
+| Digit | Probability |
+|:---:|---:|
+| 0 | 0.01% |
+| 1 | 0.02% |
+| 2 | 0.03% |
+| 3 | 0.01% |
+| 4 | 0.01% |
+| 5 | 0.12% |
+| 6 | 0.02% |
+| **7** | **98.72%** |
+| 8 | 0.71% |
+| 9 | 0.37% |
+
+> The probability values above are illustrative. Actual values are generated
+> dynamically by the trained model.
+
+---
+
+# ✦ Result Pipeline
+
+```text
+                    USER
+                     │
+                     ▼
+              Draw Handwritten
+                  Digit
+                     │
+                     ▼
+              Image Capture
+                     │
+                     ▼
+              Preprocessing
+                     │
+                     ▼
+                 28 × 28
+                   Image
+                     │
+                     ▼
+                   CNN
+                     │
+                     ▼
+              Softmax Output
+                     │
+                     ▼
+          ┌──────────────────────┐
+          │                      │
+          ▼                      ▼
+    Predicted Digit        Probability
+                              Scores
+          │                      │
+          └──────────┬───────────┘
+                     ▼
+              Streamlit UI
+                     │
+                     ▼
+        Prediction + Confidence
+             + Probabilities
