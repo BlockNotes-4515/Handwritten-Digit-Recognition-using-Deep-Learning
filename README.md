@@ -69,3 +69,39 @@ Inference Pipeline
 Interactive Web Application
   ↓
 Real-Time Prediction
+```
+
+## ✦ The Idea
+
+Handwritten-Digit-Recognition/
+│
+├── 📄 README.md
+├── 📄 CONTRIBUTING.md
+├── 📄 LICENSE
+├── 📄 requirements.txt
+├── 📄 .gitignore
+│
+├── 🐍 app.py
+│
+├── 📁 model/
+│   └── digit_model.keras
+│
+├── 📁 src/
+│   ├── __init__.py
+│   ├── preprocess.py
+│   └── predict.py
+│
+├── 📁 notebooks/
+│   └── training.ipynb
+│
+├── 📁 assets/
+│   ├── architecture.png
+│   ├── input.png
+│   ├── prediction.png
+│   ├── probability.png
+│   └── training.png
+│
+└── 📁 results/
+    ├── accuracy.png
+    ├── loss.png
+    └── confusion_matrix.png
